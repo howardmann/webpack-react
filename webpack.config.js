@@ -1,6 +1,3 @@
-const webpack = require('webpack')
-const path = require('path');
-
 module.exports = {
   entry: {
     shared: './src/components/shared/index.js',
