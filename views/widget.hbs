@@ -1,0 +1,19 @@
+<h2>Widget page</h2>
+<h2>
+  Server side rendered movies
+</h2>
+<ul>
+  {{#each movies as |movie|}}
+    <li>Title: {{movie.title}} | {{movie.year}}</li>
+  {{/each}}
+</ul>
+
+<hr>
+
+<h2>
+  React counter
+</h2>
+
+<div id="react-counter"></div>
+
+<script src="js/reactCounter.js"></script>
