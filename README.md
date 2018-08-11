@@ -66,9 +66,11 @@ Integrate a react counter widget into an existing page of sample application. Pa
 
     <script src="js/reactCounter.js"></script>
   ```
+
+- Refer to the package.json for basic webpack bundling scripts. Note that the babel-react-app preset requires the development environment to be set when running webpack compilation
 - And that's how we can easily add react widget components into parts of our app where it makes sense to include React Components. Always pick the right tool for the right job. No need to build a SPA if your app doesn't need it everywhere. 
 
 
 ## TODO
-  [ ] CSS and SASS webpack loaders
+- [ ] CSS and SASS webpack loaders
 
