@@ -1,0 +1,8 @@
+<h2>
+  Server side rendered movies
+</h2>
+<ul>
+  {{#each movies as |movie|}}
+    {{> movies/movieSingle/template movie=movie}}
+  {{/each}}
+</ul>

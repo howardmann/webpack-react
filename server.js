@@ -8,6 +8,7 @@ let helpers = require('./src/helpers')
 app.engine('.hbs', exphbs({
   extname: '.hbs', 
   defaultLayout: 'main',
+  partialsDir: __dirname + '/src/components',
   helpers
 }))
 app.set('view engine', '.hbs')
